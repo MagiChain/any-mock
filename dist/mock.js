@@ -48,7 +48,7 @@ Node.koa = function (config) {
     var _this = this;
 
     return function () {
-        var _ref = _asyncToGenerator(regeneratorRuntime.mark(function _callee(ctx, next) {
+        var _ref = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee(ctx, next) {
             return regeneratorRuntime.wrap(function _callee$(_context) {
                 while (1) {
                     switch (_context.prev = _context.next) {

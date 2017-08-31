@@ -1,5 +1,5 @@
 
 
-const mock = require('./lib');
+const mock = require('./dist');
 
 console.log(mock);
