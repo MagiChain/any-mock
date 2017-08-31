@@ -1,0 +1,36 @@
+{
+  "name": "magic-mock",
+  "version": "0.0.1",
+  "description": "mock for frontend or node.js developer",
+  "main": "index.js",
+  "directories": {},
+  "scripts": {
+    "test": "mocha",
+    "dev": "node src/index.js",
+    "build": "babel src -d lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yernsun/magic-mock.git"
+  },
+  "keywords": [
+    "mock",
+    "frontend",
+    "webpack",
+    "express",
+    "koa"
+  ],
+  "author": "YernSun <yernsun@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yernsun/magic-mock/issues"
+  },
+  "homepage": "https://github.com/yernsun/magic-mock#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "express": "^4.15.4",
+    "mocha": "^3.5.0"
+  }
+}
